@@ -49,3 +49,16 @@ cannot coerce a set to a string, at /home/liminal18/Programs/mongo4/4_2/mongodb.
 
 It appears to be related to scons not having python 3.5.
 
+
+### System Info
+
+```
+nix-env --version
+nix-env (Nix) 2.3.3
+```
+
+```
+nix-channel --list
+nixos https://nixos.org/channels/nixos-19.09
+```
+NOTE: this is odd I am running version 20.
