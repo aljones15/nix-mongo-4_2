@@ -64,3 +64,10 @@ nix-channel --list
 nixos https://nixos.org/channels/nixos-19.09
 ```
 NOTE: this is odd I am running version 20.
+
+The global python version should not matter, but:
+
+```
+[liminal18@nixos:~/Programs/mongo4/4_2]$ python --version
+Python 3.7.6
+```
