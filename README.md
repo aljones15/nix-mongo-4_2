@@ -63,6 +63,14 @@ nix-env (Nix) 2.3.3
 nix-channel --list
 nixos https://nixos.org/channels/nixos-19.09
 ```
+
+```
+sudo nix-channel --list
+nixos https://nixos.org/channels/nixos-20.03
+nixos-unstable https://nixos.org/channels/nixos-unstable
+unstable https://nixos.org/channels/nixos-unstable
+```
+
 NOTE: this is odd I am running version 20.
 
 The global python version should not matter, but:
