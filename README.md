@@ -52,6 +52,8 @@ It appears to be related to scons not having python 3.5.
 
 ### System Info
 
+This should be nixos 20.03.
+
 ```
 nix-env --version
 nix-env (Nix) 2.3.3
