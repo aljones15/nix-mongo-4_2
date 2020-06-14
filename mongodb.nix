@@ -17,10 +17,10 @@ with stdenv.lib;
 let
   ifdef = if versionAtLeast version "4.2.5"
           then { python = python3.withPackages (ps: with ps; [ pyyaml cheetah3 psutil setuptools ]);
-                 scons = callPackage ./scons/default.nix {
+                 scons = (callPackage ./scons/default.nix {
                    inherit callPackage;
                    inherit python2Packages;
-                 };
+                 }).scons_latest;
                  mozjsVersion = "60";
                  mozjsReplace = "defined(HAVE___SINCOS)";
                }
