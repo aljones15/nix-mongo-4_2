@@ -79,3 +79,8 @@ The global python version should not matter, but:
 [liminal18@nixos:~/Programs/mongo4/4_2]$ python --version
 Python 3.7.6
 ```
+
+```
+nix-shell -p nix-info --run nix-info
+system: "x86_64-linux", multi-user?: yes, version: nix-env (Nix) 2.3.3, channels(root): "nixos-20.03.2141.8b071be7512, nixos-unstable-20.09pre218613.ae6bdcc5358, unstable-20.09pre218613.ae6bdcc5358", channels(liminal18): "nixos-19.09.2284.bf7c0f0461e", nixpkgs: /nix/var/nix/profiles/per-user/root/channels/nixos
+```
